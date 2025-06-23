@@ -5,4 +5,10 @@ public class Computer {
         System.out.println("USB connected to computer");
         usb.readInfo();
     }
+
+    public void writeInfo(USB usb, String info){
+        System.out.println("USB connected to computer");
+        usb.writeInfo(info);
+        System.out.println("Information is written");
+    }
 }

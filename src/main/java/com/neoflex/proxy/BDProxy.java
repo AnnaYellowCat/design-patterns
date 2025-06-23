@@ -1,9 +1,9 @@
 package main.java.com.neoflex.proxy;
 
 public class BDProxy {
-    private final BDImpl bd;
+    private final BD bd;
 
-    public BDProxy(BDImpl bd) {
+    public BDProxy(BD bd) {
         this.bd = bd;
     }
 

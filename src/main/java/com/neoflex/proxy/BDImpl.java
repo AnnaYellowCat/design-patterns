@@ -8,7 +8,7 @@ public class BDImpl implements BD {
     }
 
     public void connect(String url){
-        System.out.println("Connecting to bd: " + url);
+        System.out.println("подключено " + url);
     }
 
     public String getBdTitle() {

@@ -11,4 +11,9 @@ public class USBAdapter implements USB{
     public void readInfo() {
         memoryCard.readInfo();
     }
+
+    @Override
+    public void writeInfo(String info) {
+        memoryCard.writeInfo(info);
+    }
 }

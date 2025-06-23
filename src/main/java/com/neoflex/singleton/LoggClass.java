@@ -16,7 +16,7 @@ public class LoggClass {
         return loggClass;
     }
 
-    public void classLog(Object object, String info) {
+    public void classLogg(Object object, String info) {
         String fields = Arrays.stream(object.getClass().getDeclaredFields())
                 .map(Field::getName)
                 .reduce((x, y) -> x + ", " + y)

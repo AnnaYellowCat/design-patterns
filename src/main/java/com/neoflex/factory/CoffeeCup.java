@@ -10,7 +10,7 @@ public class CoffeeCup {
 
     public void takeSip(){
         if (coffee != null) {
-            System.out.println("Mmm, " + coffee.getTitle() + "!");
+            System.out.println("Mmm, " + coffee.checkDescription() + "!");
         }
         else {
             System.out.println("Cup is empty :(");
